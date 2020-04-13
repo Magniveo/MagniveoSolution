@@ -18,8 +18,8 @@ export default class IApp extends React.Component<any, any> {
                             textAlign: "center",
                             fontSize: 18
                         }}>
-                            <a href="http://wtmdoc.walkingtec.cn" target="_block" style={{ fontSize: 24 }}>WTM文档地址</a><br />
-                            WTM是纯开源框架，如果喜欢，来GitHub赏个星~~
+                            <a href="http://wtmdoc.walkingtec.cn" target="_block" style={{ fontSize: 24 }}>WTM адрес</a><br />
+                            WTM - это чистый фреймворк с открытым исходным кодом, если хотите, приходите на GitHub, чтобы поставить звезду!!!
                               <Github />
                         </div>
                     </Col>

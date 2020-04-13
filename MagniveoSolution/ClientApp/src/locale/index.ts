@@ -67,14 +67,14 @@ export function getLocalesTemplate(key, values, defaultValue?) {
  */
 export function getLocales(language = globalconfig.language) {
     const define = lodash.get(locales, language);
-    console.log('locale test');
-    console.log(define);
-     //defineMessages(lodash.mapValues(define, (value, key) => {
-     //    console.log( {
-     //        id: key,
-     //        description: value
-     //    })
-     //}) as any)
+    //if (language === 'ru-RU')
+    //    //console.log(define);
+    // defineMessages(lodash.mapValues(define, (value, key) => {
+    //     console.log( {
+    //         id: key,
+    //         description: value
+    //     })
+    // }) as any)
 
     return define
 }
