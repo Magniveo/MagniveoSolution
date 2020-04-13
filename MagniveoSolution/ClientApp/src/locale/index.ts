@@ -1,16 +1,27 @@
 import enus from './en-US/default';
 import zhcn from './zh-CN/default';
+import engb from './en-GB/default';
+import ruru from './ru-RU/default';
 import lodash from 'lodash';
 import { defineMessages, FormattedMessage, MessageDescriptor } from 'react-intl';
 import globalconfig from 'global.config';
 import antdZhCN from 'antd/lib/locale-provider/zh_CN';
 import antdEnUS from 'antd/lib/locale-provider/en_US';
+import antdEnGB from 'antd/lib/locale-provider/en_GB';
+import antdRuRU from 'antd/lib/locale-provider/ru_RU';
 let locales = {
     'zh-CN': {
         ...zhcn,
     },
     'en-US': {
         ...enus,
+    },
+    'en-GB': {
+        ...engb,
+    }
+    ,
+    'ru-RU': {
+        ...ruru,
     }
 };
 /**
@@ -18,7 +29,7 @@ let locales = {
  * @param key 
  * @param locales 
  */
-export function mergeLocales(mergeLocales: { 'zh-CN'?: any, 'en-US'?: any }) {
+export function mergeLocales(mergeLocales: { 'zh-CN'?: any, 'en-US'?: any, 'en-GB'?: any, 'ru-RU'?: any}) {
     // lodash.update(locales, key, loe => {
     //     return lodash.merge(loe, locales)
     // });
@@ -56,20 +67,23 @@ export function getLocalesTemplate(key, values, defaultValue?) {
  */
 export function getLocales(language = globalconfig.language) {
     const define = lodash.get(locales, language);
-
-    // defineMessages(lodash.mapValues(define, (value, key) => {
-    //     return {
-    //         id: key,
-    //         description: value
-    //     }
-    // }) as any)
+    console.log('locale test');
+    console.log(define);
+     //defineMessages(lodash.mapValues(define, (value, key) => {
+     //    console.log( {
+     //        id: key,
+     //        description: value
+     //    })
+     //}) as any)
 
     return define
 }
 export function getConfigProvider(language = globalconfig.language) {
     return lodash.get({
         'zh-CN': antdZhCN,
-        'en-US': antdEnUS
-    }, language, antdZhCN)
+        'en-US': antdEnUS,
+        'en-Gb': antdEnGB,
+        'ru-RU': antdRuRU
+    }, language, antdRuRU)
 }
 export default locales

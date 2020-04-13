@@ -1,23 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagniveoSolution", "MagniveoSolution\MagniveoSolution.csproj", "{3befc914-765e-4ec9-b4b4-0378b7e7ea3c}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagniveoSolution", "MagniveoSolution\MagniveoSolution.csproj", "{3BEFC914-765E-4EC9-B4B4-0378B7E7EA3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagniveoSolution.Test", "MagniveoSolution.Test\MagniveoSolution.Test.csproj", "{a5b6dce4-9a79-4c73-9eaa-f5ed453466aa}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagniveoSolution.Test", "MagniveoSolution.Test\MagniveoSolution.Test.csproj", "{A5B6DCE4-9A79-4C73-9EAA-F5ED453466AA}"
 EndProject
-
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3befc914-765e-4ec9-b4b4-0378b7e7ea3c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3befc914-765e-4ec9-b4b4-0378b7e7ea3c}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3befc914-765e-4ec9-b4b4-0378b7e7ea3c}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3befc914-765e-4ec9-b4b4-0378b7e7ea3c}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEFC914-765E-4EC9-B4B4-0378B7E7EA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEFC914-765E-4EC9-B4B4-0378B7E7EA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEFC914-765E-4EC9-B4B4-0378B7E7EA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEFC914-765E-4EC9-B4B4-0378B7E7EA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B6DCE4-9A79-4C73-9EAA-F5ED453466AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B6DCE4-9A79-4C73-9EAA-F5ED453466AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B6DCE4-9A79-4C73-9EAA-F5ED453466AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B6DCE4-9A79-4C73-9EAA-F5ED453466AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

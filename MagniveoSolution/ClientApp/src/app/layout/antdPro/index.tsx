@@ -76,7 +76,7 @@ export default class App extends React.Component<any> {
     public render() {
         const settings = toJS(GlobalConfig.settings);
         const { language } = GlobalConfig;
-        // window['g_locale']='en-US'
+        //  window['g_locale']='ru-RU'
         return (
             <>
                 <BasicLayout

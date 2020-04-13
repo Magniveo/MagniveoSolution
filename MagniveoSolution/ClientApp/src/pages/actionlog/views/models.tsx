@@ -36,6 +36,20 @@ mergeLocales({
         'actionlog.LogType.0': 'Normal',
         'actionlog.LogType.1': 'Exception',
         'actionlog.LogType.2': 'Debug',
+    },
+    "ru-RU": {
+        'actionlog.ModuleName': 'Модуль',
+        'actionlog.ActionName': 'Действие',
+        'actionlog.ITCode': 'Аккаунт',
+        'actionlog.ActionUrl': 'Url',
+        'actionlog.ActionTime': 'Время действий',
+        'actionlog.Duration': 'Продолжительность',
+        'actionlog.Remark': 'Ремарка',
+        'actionlog.IP': 'IP',
+        'actionlog.LogType': 'Тип лога',
+        'actionlog.LogType.0': 'Нормально',
+        'actionlog.LogType.1': 'Исключение',
+        'actionlog.LogType.2': 'Отладка',
     }
 });
 

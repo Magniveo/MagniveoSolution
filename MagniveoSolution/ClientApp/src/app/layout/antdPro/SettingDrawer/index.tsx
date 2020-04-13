@@ -353,7 +353,7 @@ class SettingDrawer extends Component<SettingDrawerProps, SettingDrawerState> {
       id: string;
       defaultMessage?: string;
     }): string => {
-      const locales = getLocales();
+        const locales = getLocales();
       if (locales[id]) {
         return locales[id];
       }
