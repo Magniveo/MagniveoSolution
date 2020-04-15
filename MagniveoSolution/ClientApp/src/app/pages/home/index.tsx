@@ -9,7 +9,6 @@ import Antv2 from './echarts/lunar';
 import Antv3 from './echarts/pie';
 export default class IApp extends React.Component<any, any> {
     public render() {
-        console.log("Home");
         return (
             <div>
                 {globalConfig.development && <Row type="flex" gutter={16}>
@@ -45,7 +44,6 @@ export default class IApp extends React.Component<any, any> {
                         <Card bordered={false}>    <Antv2 /></Card>
                     </Col>
                 </Row>
-
             </div>
         );
     }

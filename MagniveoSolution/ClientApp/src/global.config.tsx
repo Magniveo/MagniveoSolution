@@ -6,11 +6,12 @@ import lodash from 'lodash';
 import { configure, observable, toJS } from 'mobx';
 import { create, persist } from 'mobx-persist';
 import moment from 'moment';
-import 'moment/locale/zh-cn';
+import 'moment/locale/ru';
+//import 'moment/locale/zh-cn';
 import "./global.less";
 const language = lodash.get(window, 'navigator.language', 'ru-RU');
 // 日期中文
-moment.locale('ru-RU');
+moment.locale('ru');
 // mobx 严格模式 https://cn.mobx.js.org/refguide/api.html
 configure({ enforceActions: "observed" });
 notification.config({

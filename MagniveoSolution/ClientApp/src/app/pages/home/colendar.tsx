@@ -52,7 +52,7 @@ function getMonthData(value) {
 }
 
 function monthCellRender(value) {
-  const num = getMonthData(value);
+    const num = getMonthData(value);
   return num ? (
     <div className="notes-month">
       <section>{num}</section>
