@@ -74,6 +74,6 @@
     "react-app-rewired": "2.1.4",
     "react-scripts": "3.2.0",
     "typescript": "^3.6.4",
-    "webpack-bundle-analyzer": "3.6.0"
+    "webpack-bundle-analyzer": "4.10.2"
   }
 }
